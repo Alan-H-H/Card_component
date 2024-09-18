@@ -1,0 +1,28 @@
+body{
+  background-color: lightyellow;
+  height: 100%;
+}
+.container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.card{
+  align-items: center;
+  width: 500px;
+  padding: 3.5em;
+  background-color: white;
+  box-shadow: 10px 10px 0px 10px black;
+  border-radius: 1em;
+  border: .5px solid lightgray;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-weight: 800;
+}
+p{
+  color: lightgray;
+}
